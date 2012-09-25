@@ -1,13 +1,13 @@
 <?php
 
-    /*
-    Plugin Name: lucidel
-    Plugin URI: http://lucidel.com
-    Description: lucidel plugin for wordpres
-    Version: 1.0
-    Author: Lucidel
-    Author URI: http://lucidel.com
-    */
+/*
+Plugin Name: lucidel
+Plugin URI: http://lucidel.com
+Description: lucidel plugin for wordpress. <strong>You must have an account with Lucidel for this plugin to work.</strong><p>If you do not have one,  Get one <a href="http://staging.lucidel.com/choose_plan/?installed=1">here !</p>
+Version: 1.0
+Author: Lucidel
+Author URI: http://lucidel.com
+*/
 
     class lucidel {
 
@@ -22,7 +22,7 @@
         #init
         public function init(){
 
-            $this->codeOption();
+            #$this->codeOption();
 
         }
 
@@ -55,7 +55,7 @@
             $code = "<script type='text/javascript'>
                         (function() {
                             var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-                            s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'lucidel.com/tracker/".$options['code'].".js';
+                            s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'js.lucidel.com/script/" . $_SERVER['SERVER_NAME'] . ".js';
                             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
                         })();
                     </script>";
@@ -93,9 +93,7 @@
         }
 
         public function warning(){
-          $options = get_option($this->adminOptionsName);
-          if(!$options['code'] || $options['code'] == '0000')
-          echo "<div id=\"message\" class=\"error\"><p><b>Lucidel plugin is not active</b>. You must <a href=\"options-general.php?page=".basename(__FILE__)."\">set your Lucidel ID</a> before it can work</p></div>";
+          echo "<div id=\"message\" class=\"error\"><p><b>You must have an account with Lucidel for the plugin to work. If you don't have one,  Get one <a href=\"http://staging.lucidel.com/choose_plan/?callback=" . urlencode('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']) . "\">here !</p></div>";
         }
 
     }
@@ -106,7 +104,7 @@
     #add js
     add_action('wp_head', array($lucidel , 'addJsCode'));
 
-    add_action('admin_footer', array(&$lucidel, 'warning') );
+    #add_action('admin_footer', array(&$lucidel, 'warning') );
 
     function adminPage() {
 
