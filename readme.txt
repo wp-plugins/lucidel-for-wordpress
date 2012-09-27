@@ -1,10 +1,10 @@
-=== Lucidel Plug-In  ===
+=== Lucidel Analytics ===
 Contributors: aassaf
 Donate link: www.lucidel.com
-Tags: analytics, web traffic, segmentation 
-Requires at least: 3.05
+Tags: analytics, web traffic, google, google analytics, custom variables, survey, survey widget, demographics, e-commerce, Lucidel, segmentation, audience segmentation, trending, web analytics  
+Requires at least: 2.1
 Tested up to: 3.05
-Stable tag: 
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,16 @@ Integrate Lucidel software into your wordpress website to automatically access w
 
 This plug-in allows users to very quickly incorporate Lucidel software into their Wordpress webpage. It automatically goes through your web pages and adds all the javascript tags that are necessary for you to start analyzing your web traffic. 
 
-Lucidel software combines the power of google analytics with its own software and allows users to access demographic data of their website's visitors (age, gender, income, educational level, etc) in addition to the basic metrics that google analytics provides. More importantly, however, using Lucidel's automated algorithm, users will be notified of changes, trends, etc that occur over time allowing them to save time doing the analysis and jump right to the insights. 
+Lucidel software combines the power of google analytics with its own software and allows users to access demographic data of their website's visitors:   
+
+* Age  
+* Gender   
+* Income Level  
+* Educational Level
+* Political Affiliation 
+* High Level Geographic Segmentation 
+
+in addition to the basic metrics that google analytics provides. More importantly, however, using Lucidel's automated algorithm, users will be notified of changes, trends, etc that occur over time allowing them to save time doing the analysis and jump right to the insights. 
 
 == Installation ==
 
@@ -39,34 +48,49 @@ Method 2: Search for our plugin on the directory
 == Frequently asked questions ==
 
 
-Q) Where do you get information about my visitors?
+= Where do you get information about my visitors? = 
 A) We buy it from the same sources that ad networks that target us based on our demographic information and surfing habits.
 
-Q) Does that have a negative impact the privacy of my users?
+= Does that have a negative impact the privacy of my users? = 
 A) Not really. Nothing is known about us personally, just that we fall into large 'buckets' like "middle aged man who likes cars". These data marketplaces still know less about us than the guys who send us junk mail. And they aren't annoying like them.
 
-Q) What metrics do you look for?
+= What metrics do you look for? = 
 A) We look at every standard metric out there plus a few KPIs we have created.
 
-Q) Can I get more reports?
+= Can I get more reports? = 
 A) If there is information you want but aren't seeing send us an email (ideas@lucidel.com) and we will try and include it in a future version.
 
-Q) Can i access the demographics information in my google analytics account?
+= Can i access the demographics information in my google analytics account? = 
 A) Not at the moment. In order to be able to include as many dimension to our reports as possible we compress the data in a way that only our algorithms can understand. But we are working on it.
 
-Q) Can I control what metrics I receive and how frequently I get them?
+= Can I control what metrics I receive and how frequently I get them? = 
 A) We are working on more personalization features. If you have any specific requests please send us an email (ideas@lucidel.com) and we will try and make it happen for you.
 
 See lucidel.com/faq for additional FAQs.
 
 == Screenshots ==
 
-Screenshots to be uploaded later. 
+1. View of the Lucidel Dashboard which streamlines your ability to quickly understand what is happening on your website.
+2. The graphs section allows you advanced visualization of any metric measured for any segment.
+3. You can even use the graphs section to visualize changes that are taking place over time.
+4. The logs section organizes the history of your website in easy-to-navigate weekly blocks where each day's changes are highlighted.
+5. The labs section shows the before/after picture of the changes that have taken place on your website since a particular date. 
 
 == Changelog ==
 
-2012/06/20 Version 0.9.
-2012/09/25 Version 1.0.
-   * Installation now does not contain the user account ID.
+= 0.9 = 
+* 2012/06/20
+
+= 1.0 = 
+* 2012/09/25
+* Installation now does not contain the user account ID
+
+= 1.01 = 
+* 2012/09/27
+* Improved Instructions
+
+= 1.02 = 
+* 2012/09/27
+* Wording Fixed 
 
 == Upgrade notice ==

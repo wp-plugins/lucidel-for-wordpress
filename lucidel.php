@@ -1,11 +1,15 @@
 <?php
 
+
+
 /*
-Plugin Name: lucidel
-Plugin URI: http://lucidel.com
-Description: lucidel plugin for wordpress. <strong>You must have an account with Lucidel for this plugin to work.</strong><p>If you do not have one,  Get one <a href="http://staging.lucidel.com/choose_plan/?installed=1">here !</p>
-Version: 1.0
-Author: Lucidel
+Info for WordPress: 
+=================================================================
+Plugin Name: Lucidel Analytics
+Plugin URI: www.lucidel.com/wordpress
+Description: Lucidel plugin for wordpress. <strong>You must have an account with Lucidel for this plugin to work.</strong><p>If you do not have one,  Get one <a href="http://lucidel.com/choose_plan/">here !</p>
+Version: 1.02
+Author: Ariel Assaf 
 Author URI: http://lucidel.com
 */
 
