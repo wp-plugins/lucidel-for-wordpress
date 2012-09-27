@@ -1,7 +1,7 @@
 === Lucidel Analytics ===
 Contributors: aassaf
 Donate link: www.lucidel.com
-Tags: analytics, web traffic, segmentation 
+Tags: analytics, web traffic, google, google analytics, custom variables, survey, survey widget, demographics, e-commerce, Lucidel, segmentation, audience segmentation, trending, web analytics  
 Requires at least: 2.1
 Tested up to: 3.05
 Stable tag: trunk
@@ -14,7 +14,16 @@ Integrate Lucidel software into your wordpress website to automatically access w
 
 This plug-in allows users to very quickly incorporate Lucidel software into their Wordpress webpage. It automatically goes through your web pages and adds all the javascript tags that are necessary for you to start analyzing your web traffic. 
 
-Lucidel software combines the power of google analytics with its own software and allows users to access demographic data of their website's visitors (age, gender, income, educational level, etc) in addition to the basic metrics that google analytics provides. More importantly, however, using Lucidel's automated algorithm, users will be notified of changes, trends, etc that occur over time allowing them to save time doing the analysis and jump right to the insights. 
+Lucidel software combines the power of google analytics with its own software and allows users to access demographic data of their website's visitors:   
+
+* Age  
+* Gender   
+* Income Level  
+* Educational Level
+* Political Affiliation 
+* High Level Geographic Segmentation 
+
+in addition to the basic metrics that google analytics provides. More importantly, however, using Lucidel's automated algorithm, users will be notified of changes, trends, etc that occur over time allowing them to save time doing the analysis and jump right to the insights. 
 
 == Installation ==
 
@@ -69,10 +78,15 @@ See lucidel.com/faq for additional FAQs.
 
 == Changelog ==
 
-2012/06/20 Version 0.9.
-2012/09/25 Version 1.0.
-   * Installation now does not contain the user account ID.
-2012/09/27 Version 1.0.1
-   * Improved Instructions
+= 0.9 = 
+* 2012/06/20
+
+= 1.0 = 
+* 2012/09/25
+* Installation now does not contain the user account ID
+
+= 1.01 = 
+* 2012/09/27
+* Improved Instructions
 
 == Upgrade notice ==
