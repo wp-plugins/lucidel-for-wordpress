@@ -8,7 +8,7 @@ Info for WordPress:
 Plugin Name: Lucidel Analytics
 Plugin URI: www.lucidel.com/wordpress
 Description: Lucidel plugin for wordpress. <strong>You must have an account with Lucidel for this plugin to work.</strong><p>If you do not have one,  Get one <a href="http://lucidel.com/choose_plan/">here !</p>
-Version: 1.01
+Version: 1.02
 Author: Ariel Assaf 
 Author URI: http://lucidel.com
 */

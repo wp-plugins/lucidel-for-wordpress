@@ -89,4 +89,8 @@ See lucidel.com/faq for additional FAQs.
 * 2012/09/27
 * Improved Instructions
 
+= 1.02 = 
+* 2012/09/27
+* Wording Fixed 
+
 == Upgrade notice ==
